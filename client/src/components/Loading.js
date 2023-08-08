@@ -9,7 +9,7 @@ const Loading = () => {
     }, 3000);
 
     return () => clearTimeout(timer);
-  }, []);
+  });
 
   if (isLoading) {
     return (
