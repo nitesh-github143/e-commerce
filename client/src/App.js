@@ -15,7 +15,7 @@ import PaymentSuccess from "./components/PaymentSuccess";
 
 function App() {
   // const networkUrl = "http://localhost:4000";
-  const networkUrl = "https://e-comm-backend-1eg9.onrender.com";
+  const networkUrl = "https://e-comm-backend-ow1w.onrender.com";
 
   const [user, setUser] = useState(null); // Initialize user state to null
   const [checkout, setCheckout] = useState([]);
